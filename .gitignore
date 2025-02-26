@@ -1,0 +1,84 @@
+# Visual Studio & JetBrains Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+TestResults/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vspcc
+*.nuget.props
+*.nuget.targets
+
+# NuGet Packages
+*.nupkg
+packages/
+.nuget/
+project.json.lock
+**/src/packages/
+**/test/packages/
+**/packages/build/
+**/packages/repositories.config
+global.json
+
+# Entity Framework Migrations
+Migrations/
+
+# Logs & User Settings
+*.log
+logs/
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.cache
+appsettings.Development.json
+
+# Rider & Resharper
+*.DotSettings.user
+*.DotSettings
+
+# Local DB & Cache
+*.db
+*.mdb
+*.sqlite
+*.sqlite3
+*.ldf
+*.mdf
+
+# Docker & Kubernetes
+**/docker-compose.override.yml
+**/docker-compose.override.yaml
+**/docker-compose.yml
+**/docker-compose.yaml
+**/compose.override.yml
+**/compose.override.yaml
+**/compose.yml
+**/compose.yaml
+.dockerignore
+
+# .NET Dependencies
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Publish Output
+publish/
+*.publishsettings
